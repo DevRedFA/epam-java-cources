@@ -2,6 +2,7 @@ package com.epam.university.java.spring.quoters;
 
 import javax.annotation.PostConstruct;
 
+@Profiling
 public class TerminatorQuoter implements Quoter {
 
     @InjectRandomInt(min = 2, max = 7)
