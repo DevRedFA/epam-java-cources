@@ -8,6 +8,7 @@
 
     <bean class="com.epam.university.java.spring.quoters.ProfilingHandlerBeanPostProcessor"/>
     <bean class="com.epam.university.java.spring.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
+    <bean class="com.epam.university.java.spring.quoters.PostProxyInvokerContextListener"/>
 
     <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
 

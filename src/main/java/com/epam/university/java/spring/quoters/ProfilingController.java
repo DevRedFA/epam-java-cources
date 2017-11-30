@@ -1,7 +1,7 @@
 package com.epam.university.java.spring.quoters;
 
 public class ProfilingController implements ProfilingControllerMBean {
-    private boolean enabled;
+    private boolean enabled = true;
 
     boolean isEnabled() {
         return enabled;
