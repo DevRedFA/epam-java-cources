@@ -10,4 +10,10 @@ public class TestTerminatorQuoter {
         Quoter bean = classPathXmlApplicationContext.getBean(Quoter.class);
         bean.sayQuote();
     }
+
+    @Test
+    public void test_context_properties() throws InterruptedException {
+        PropertyFileApplicationContext context = new PropertyFileApplicationContext("/spring/quoters/context.properties");
+        context.getBean(Quoter.class).sayQuote();
+    }
 }
