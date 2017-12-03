@@ -1,4 +1,4 @@
-package com.epam.university.java.spring.quoters;
+package com.epam.university.java.spring.reaper.quoters;
 
 public class ProfilingController implements ProfilingControllerMBean {
     private boolean enabled = true;

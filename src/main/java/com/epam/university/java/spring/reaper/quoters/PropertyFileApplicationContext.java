@@ -1,4 +1,4 @@
-package com.epam.university.java.spring.quoters;
+package com.epam.university.java.spring.reaper.quoters;
 
 import org.springframework.beans.factory.support.PropertiesBeanDefinitionReader;
 import org.springframework.context.support.GenericApplicationContext;

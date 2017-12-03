@@ -1,4 +1,4 @@
-package com.epam.university.java.spring.quoters;
+package com.epam.university.java.spring.reaper.quoters;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
@@ -7,8 +7,6 @@ import org.springframework.lang.Nullable;
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
 import java.lang.management.ManagementFactory;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.HashMap;
 import java.util.Map;
